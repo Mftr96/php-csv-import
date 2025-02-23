@@ -69,8 +69,12 @@ Considerazioni fatte per la tabella:
 - la colonna price è segnata con decimal per segnare nel modo piàù orretto possibile il prezzo senza arrotondamenti eccessivi.
 ![diagramma](/drawSQL-image-export-2025-02-23.png).
 
-Creata la tabella vado quindi su phpMyadmin per creare la tabella relativa a questo progetto.
-
+Creata la tabella vado a creare lo [script](/db_tables_creation.php) php per creare il database php con le relative tabelle(attenzione! se abbiamo delle tabelle in relazione one to many va sempre messa prima la tabella che con l'id che verrà messso come foreign key, in questo caso categories).
+Dati necessari per la creazione dello script:
+- servername: in questo caso localhost
+- username: usando phpmyadmin il valore predefinito è root
+- password: stringa vuota
+- dbname: il nome del database che andrete a creare 
 
 
 ## Roadmap
