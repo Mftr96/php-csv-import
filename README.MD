@@ -52,6 +52,12 @@ lo svolgimento dell'esercizio:
 diagramma E/R che hai progettato
 • confrontare diversi metodi per leggere file CSV in PHP e di evidenziarne i pro e i
 contro
+
+References
+Approfondisci il formato CSV:
+https://www.php.net/manual/it/function.fgetcsv.php
+https://www.html.it/articoli/file-csv-cosa-sono-come-si-aprono-e-come-crearli/
+https://www.geeksforgeeks.org/how-to-parse-a-csv-file-in-php/
 ## considerazioni pre-progetto
 
 
