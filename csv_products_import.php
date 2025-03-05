@@ -14,7 +14,7 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-
+    
     while (($data = fgetcsv($readCsv, 1000, ",")) !== false) { // Legge una riga alla volta
         print_r($data[0]); // Stampa l'array con i dati della riga
         print_r($data[1]); // Stampa l'array con i dati della riga

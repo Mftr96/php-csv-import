@@ -76,5 +76,30 @@ Dati necessari per la creazione dello script:
 - password: stringa vuota
 - dbname: il nome del database che andrete a creare 
 
+milestone 2: creazione script 
+
+in questa fase vado a creare due script separati per l'importazione dei dati nei file csv nelle rispettive tabelle del database.
+
+i passaggi necessari per l'esecuzione sono :
+
+- la connessione al database 
+- esecuzione in ciclo di : 
+    - apertura file csv 
+    - lettura riga csv 
+    - creazione della query sql con i dati estratti dal csv 
+    - esecuzione della query
+
+
 
 ## Roadmap
+🏳️: da fare 
+🔨:in corso d'opera
+☑️:fatto
+
+- diagramma E/R☑️
+- creazione database ☑️
+- creazione tabelle☑️
+- script categories☑️
+- script products ☑️
+- refactoring (non dichiarare ogni volta il database ma fare in un unico file e fare include negli altri)🏳️
+- creazione script CLI 🏳️
